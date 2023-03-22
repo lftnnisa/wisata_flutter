@@ -10,7 +10,8 @@ class DetailScreen extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold(
       body: SafeArea(
-        child: Column(
+        child:
+        Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget> [
             Image.asset(place.imageAsset),

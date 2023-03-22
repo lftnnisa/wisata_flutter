@@ -8,8 +8,8 @@ class DoneTourismProvider extends ChangeNotifier{
 
   void complete(TourismPlace place, bool isDone){
     isDone
-          ? _doneTourismPlaceList.add(place)
-          : _doneTourismPlaceList.remove(place);
+        ? _doneTourismPlaceList.add(place)
+        : _doneTourismPlaceList.remove(place);
     notifyListeners();
   }
 }

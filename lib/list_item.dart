@@ -44,6 +44,11 @@ class ListItem extends StatelessWidget{
               ),
             ),
           ),
+          Checkbox(
+            checkColor: Colors.blueAccent,
+            value: isDone,
+            onChanged: onCheckboxClick,
+          ),
         ],
       ),
     );

@@ -4,7 +4,6 @@ import 'package:wisata_flutter/tourism_list.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);
-
   @override
   _MainScreenState createState() => _MainScreenState();
 }
